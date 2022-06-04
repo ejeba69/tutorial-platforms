@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<style>
+
+body {
+	background-color: #111111;
+}
+
+h3 {
+	color: #00ff00;
+	text-align: center;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h3>hello, world</h3>
+
+<script>
+
+//Types of js loops:
+//1. while loop
+//2. until loop
+//3. do-while loop
+//4. for loop
+
+let term = 5;
+
+while (term <=23) {
+	term = term + 3;
+	console.log(term);
+};
+
+
+let theNumber = Number(prompt("Pick a number"));
+console.log("Your number is the square root of " +
+theNumber * theNumber);
+
+</script>
+
+</body>
+
+</html>

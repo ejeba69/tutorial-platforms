@@ -1,0 +1,16 @@
+//THREE WAYS TO WRITE A FUNCTION
+
+//First way:
+/*let y = function (x) {
+	return x + 10;
+};*/
+//console.log(y(3));
+
+//Second way (Declaration notation):
+/*function y(x) {
+	return x + 10;
+};*/
+
+//Third way (Arrow function);
+//let y = (x) => {return x + 10;}
+//console.log(y(3));

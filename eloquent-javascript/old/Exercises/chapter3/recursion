@@ -1,0 +1,14 @@
+//2022.3.7 mon wk10 9:03
+
+//RECURSION (USING RECURSION TO DETERMINE EVENNESS)
+
+function isEven(N) {
+	if (N - 2 === 0) {
+		return true;
+	} else if (N - 2 === 1) {
+		return false;
+	} else if (N - 2 > 1) {
+		return isEven(N - 2)
+	}
+};
+console.log(isEven(60));

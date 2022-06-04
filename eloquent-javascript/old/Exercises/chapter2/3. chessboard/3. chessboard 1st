@@ -1,0 +1,5 @@
+//Tu 1.3.22 wk9 1057hr
+
+for (let string = console.log(' # # # #\n# # # # '); string <= 4;) {
+	console.log(string);
+}

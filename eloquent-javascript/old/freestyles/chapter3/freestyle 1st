@@ -1,0 +1,89 @@
+//tue 1.3.22 wk9 20:05
+//wed 2.3.22 wk9 around 07:00 (I forgot to log the time & date at the time I started. But I remembered sometime later.)
+//thu 3.3.22 wk9 10:44
+
+/*
+For me, I sense a natural connection between the concept of function in Mathematics and JavaScript.
+let y = f(x) 
+is very similar to 
+let y = function(x) {
+	block of code
+}
+This connection is really exciting to me. And it's helping to better appreciate the concept of function in JavaScript.
+
+
+let square = function(x) {
+	console.log(x * x);
+};
+square(3);
+
+
+let x
+if (x = 0) {
+	return "fuck y0u!"
+} else if (x = 7) {
+	return "perfect"
+} else {
+	return "true love"
+}
+x=0
+console.log(x)
+
+
+let ten = 10
+let tenSquared = ten * ten
+console.log(tenSquared)
+
+
+//EXPONENT FUNCTION
+let e = function (base, power) {
+	let counter = 0;
+	let result = 1;
+	while (counter < power) {
+		result *= base;
+		counter++
+	}
+	return result
+}
+console.log(e(7, 2));
+
+
+//EXPONENT FUNCTION USING FOR LOOP
+let e = function (base, power) {
+	let result = 1;
+	for (let counter=0; counter < power; counter++) {
+		result *= base;
+	}
+	return result
+}
+console.log(e(5, 3))
+
+
+//ARITHMETIC SERIES
+let s = function (initTerm, commonDiff, lastTerm) {
+	let term = initTerm;	//let term be initialized to the value of initTerm
+	let sum = 0;	//let sum be initialized to Zero
+	do {
+		sum += term;
+		term += commonDiff;
+	} while (term <= lastTerm)
+	return sum;
+};
+console.log(s(6, 3, 23))
+*/
+
+//Ways of expressing functions:
+//let y = function (x) {}
+//let y = (x) => {}
+//function y(x) {}
+
+
+//EXPONENT FUNCTION USING FOR LOOP
+function e (base, power) => {
+	let result = 1;
+	for (let counter=0; counter < power; counter++) {
+		result *= base;
+	}
+	return result
+}
+console.log(e(5, 3))

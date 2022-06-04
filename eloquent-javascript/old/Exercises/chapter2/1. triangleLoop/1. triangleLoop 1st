@@ -1,0 +1,30 @@
+/*Tue 1.3.22 wk9 0822hr;*/
+
+
+//While loop method
+/*
+let hash = "#";
+console.log(hash);
+
+while (hash.length < 7) {
+	hash = hash + "#";
+	console.log(hash);
+} */
+
+
+//Do-while loop method
+/*
+let hash = "#";
+console.log(hash);
+
+do {
+	hash = hash + "#";
+	console.log(hash);
+} while (hash.length < 7); */
+
+
+//For loop method
+/*
+for (let hash = "#"; hash.length <= 7; hash = hash + "#") {
+	console.log(hash);
+} */

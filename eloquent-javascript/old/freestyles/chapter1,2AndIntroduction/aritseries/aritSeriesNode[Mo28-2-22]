@@ -1,0 +1,91 @@
+//Types of js loops:
+//1. while loop
+//2. until loop
+//3. do-while loop
+//4. for loop
+
+/*
+
+let term = 2;
+let sum = 0;
+
+while (term < 23) {
+	sum += term;
+	term += 3;
+	console.log(sum);
+};
+
+*/
+
+/*
+
+let count = 1;
+let total = 0;
+
+while (count <= 10) {
+	count = 1 + count;
+	total = count + total;
+	console.log(total);
+};
+
+*/
+
+
+/*
+
+let total = 0, count = 1;
+while (count <= 10) {
+	total += count;
+	count += 1;
+	console.log(total)
+};
+
+*/
+
+
+/*
+
+let total = 0; 
+let count = 1;
+
+while (count <= 10) {
+	total = count + total;
+	count = 1 + count;
+	console.log(total);
+};
+
+*/
+
+
+
+
+let count = 1;
+let total = 0; 
+
+while (count < 10) {
+	total = count + total;
+	count = 1 + count;
+	console.log(total);
+};
+
+
+/*
+
+let total = 0, count = 1;
+while (count <= 10) {
+	count += 1;
+	total += count;
+	console.log(total);
+};
+
+*/
+
+/*
+let term = 5;
+let sum = 0;
+
+while (term <= 23) {
+	sum = term + sum;
+	term = term + 3;
+	console.log(term);
+}; */

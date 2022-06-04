@@ -1,0 +1,12 @@
+//2022.3.7 mon wk10 8:43
+
+let min = (x, y) => {
+	if (x < y) {
+		return x;
+	} else if (x > y) {
+		return y;
+	} else if (x = y) {
+		return (x + " and " + y + " are equal.");
+	};
+};
+console.log(min(35,17));
