@@ -15,8 +15,8 @@
 const { ebote, onaiwu } = require("./5-names");
 const { sayHi } = require("./6-logic");
 
-sayHi("Alice");
-sayHi(ebote);
+// sayHi("Alice");
+// sayHi(ebote);
 sayHi(onaiwu);
 
 // 2ND METHOD
